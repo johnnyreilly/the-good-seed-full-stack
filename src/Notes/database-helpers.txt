@@ -1,0 +1,10 @@
+//
+// Entity Framework Commands to be executed from the Seed.Data directory
+//
+
+// Add a migration
+dotnet ef migrations add <<your-migration-name>>
+
+
+// Update database
+dotnet ef database update

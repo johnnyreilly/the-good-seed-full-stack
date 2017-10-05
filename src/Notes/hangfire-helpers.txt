@@ -1,0 +1,9 @@
+//
+// Hangfire host commands
+//
+
+// Install the Hangfire Host as a Sindows Service
+sc create "Seed Tools Hangfire Host" binPath= "C:\Program Files\dotnet\dotnet.exe C:\Work\seed-tools\src\Seed.HangfireHost\bin\Debug\netcoreapp2.0\Seed.HangfireHost.dll --run-as-service"
+
+// Remove the Hangfire Host Windows Service
+sc delete "Seed Tools Hangfire Host"
