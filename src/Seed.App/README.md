@@ -8,9 +8,6 @@ Follow these instructions to get the front end app up and running
 
 Note: this doesn't cover running the backend API.
 
-    # clone the repo
-    ssh://git@stash.investec.co.uk:7999/ber/seed-tools.git
-
     # change directory to the react app
     cd src/Seed.App
 

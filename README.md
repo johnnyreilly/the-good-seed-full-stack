@@ -5,11 +5,9 @@
 - Install [node](https://nodejs.org/en/).
 - Install [seq](https://getseq.net/)
 
-## Developing [seed-tools](http://stash.investec.co.uk:7990/projects/BER/repos/seed-tools/browse):
+## Developing seed-tools:
 
-To get the code clone the repo:
-
-`git clone ssh://git@stash.investec.co.uk:7999/ber/seed-tools.git`
+To get the code clone the repo.
 
 The docs are going to assume you've cloned it at this location: `c/work/` and that you're using bash for your shell.
 

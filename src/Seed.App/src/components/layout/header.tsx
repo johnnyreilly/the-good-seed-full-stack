@@ -10,7 +10,6 @@ import FaCog from 'react-icons/lib/fa/cog';
 import { Stores } from '../../stores/index';
 import { SecurityStore } from '../../stores/securityStore';
 import { loginPath } from '../login';
-import { InvestecLogo } from '../shared/investecLogo';
 import * as css from '../../styles/styles.scss';
 
 interface IHeaderProps extends RouteComponentProps<{}> {
@@ -35,7 +34,7 @@ export class Header extends React.Component<Partial<IHeaderProps>> {
                 <div className={css.container}>
                     <div className={css.navbarBrand}>
                         <Link to="/">
-                            <InvestecLogo aria-hidden="true" />
+                            LOGO
                         </Link>
                     </div>
                     {isLoggedIn
